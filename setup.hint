@@ -1,0 +1,7 @@
+category: Graphics
+requires: cygwin qt3
+sdesc: "QCad DXF to graphics format converter"
+ldesc: "vec2web reads drawings in QCad DXF format and outputs bitmaps 
+and some other formats: BMP, GIF, JPEG, PNG, XPM, XBM, PBM, PGM, PPM, 
+Postscript and DXML. vec2web can also be used to directly print a 
+drawing to the default printer."

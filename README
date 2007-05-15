@@ -1,0 +1,63 @@
+vec2web
+------------------------------------------
+vec2web reads drawings in QCad DXF format and outputs bitmaps and some 
+other formats: BMP, GIF, JPEG, PNG, XPM, XBM, PBM, PGM, PPM, Postscript 
+and DXML. vec2web can also be used to directly print a drawing to the 
+default printer.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  qt3-3.3.8-1
+
+Build requirements:
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  make-3.81-1
+  qt3-devel-3.3.8-1
+
+Canonical website:
+  http://www.ribbonsoft.com/vec2web.html
+
+Canonical download:
+  http://www.ribbonsoft.com/archives/vec2web/
+
+-------------------------------------------
+
+Build instructions:
+  unpack vec2web-2.0.4.7-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./vec2web-2.0.4.7-X.cygport all
+
+This will create:
+  /usr/src/vec2web-2.0.4.7-X-src.tar.bz2
+  /usr/src/vec2web-2.0.4.7-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/vec2web.exe
+  /usr/share/doc/Cygwin/vec2web-2.0.4.7.README
+  /usr/share/doc/vec2web-2.0.4.7/AUTHORS
+  /usr/share/doc/vec2web-2.0.4.7/CHANGES
+  /usr/share/doc/vec2web-2.0.4.7/COPYING
+  /usr/share/doc/vec2web-2.0.4.7/FAQ
+  /usr/share/doc/vec2web-2.0.4.7/INSTALL
+  /usr/share/doc/vec2web-2.0.4.7/README
+
+------------------
+
+Port Notes:
+
+----- version 2.0.4.7-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
